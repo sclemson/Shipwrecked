@@ -39,4 +39,13 @@ As we were working on very separate aspects of the game we set up a **Trello** b
 
 This stage of the project required a huge amount of testing to ensure that the inventory updated according to the stage of the game that a player was at. Our **startGame async function** accessed the **items** section of our **API** and used a **GET** request to load objects that a player had picked up and this became a **POST** request within the **makeSave async function** so that, on loading, _Shipwrecked_ would use the API to access those levels and zones which had been completed. We used **Postman** and **Django** itself to test this aspect of the game extensively,  with Preston in particular honing each aspect of the save function until we had surpassed our MVP in this particular area.
 
+## Day 4
+With the content of the game written, our **zones.js** and **items.js** files needed populating. The zones and items were designed as **React components** with **classes** which stored the property values of that particular component. The **constructors** called during the creation of these two types of object looked like this:
+
+**Zones**
+![Zone Class](https://github.com/sclemson/Shipwrecked/blob/main/client/src/images/Zones%20Class.png)
+
+**Items**
+![Item Class](https://github.com/sclemson/Shipwrecked/blob/main/client/src/images/Items%20Class.png)
+
 
