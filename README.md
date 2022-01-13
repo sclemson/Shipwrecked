@@ -33,7 +33,7 @@ The **save** function - a key aspect of the brief was to create something with *
 As we were working on very separate aspects of the game we set up a **Trello** board to monitor progress. To this, I added scripts for each level (as well as the background graphics that I designed later in the week).
 
 <p float="left">
-  <img src="https://github.com/sclemson/Shipwrecked/blob/main/client/src/images/Trello%20Board.png" width="52%"  />
+  <img src="https://github.com/sclemson/Shipwrecked/blob/main/client/src/images/Trello%20Board.png" width="53%"  />
   <img src="https://github.com/sclemson/Shipwrecked/blob/main/client/src/images/Trello%20Script.png" width="45%" /> 
 </p>
 
