@@ -23,3 +23,13 @@ As the project had so many components and we would need to work on separate elem
 - The method by which we would give our character instructions.
 
 We had a clear idea of how to go about our initial challenge and decided to try and build an entire section of a level, reasoning that - if this was feasible - we could work with this structure for the rest of the levels within the game. We came up with a system of **zones** within levels with each containing **objects**. I wrote the problems for the first level, based on the structure that we had designed, and we implemented the first version of our **WALKTO** command which used a **GET** request to access a particular **ZoneID**. Each zone in the game would contain certain objects so the **PICKUP** function was designed to check a zone for the object’s presence, if the object was there we used a **POST** request to put that object into the player’s inventory. With this achieved, we were signed off and we set about developing the rest of the game.
+
+## Days 2 - 3
+Our sign off meant that we could now focus on fleshing out the game’s structure. I started off by building the framework of the **backend**, ensuring that Shipwrecked had authentication capability and the ability for users to register and login. We followed this by revisiting the game structure that we had designed, then focussing on two main elements:
+
+- The **content** of the game itself, which I took responsibility for.
+The **save** function - a key aspect of the brief was to create something with **CRUD** capability, and we decided that the ability to save games would be a way of achieving this. We started with the MVP of simply being able to save which zone a player was in at any one time, but ideally wanted the game to remember the items that the player had in their inventory as well. Preston went on to design this particular aspect of the game.
+
+As we were working on very separate aspects of the game we set up a **Trello** board to monitor progress. To this, I added scripts for each level (as well as the background graphics that I designed later in the week).
+
+
