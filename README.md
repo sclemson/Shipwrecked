@@ -59,3 +59,7 @@ The nuances of the **save** function and the very nature of the game meant that 
 
 By this stage we had begun to build our **frontend** game components and were able to see both the **TextDisplay.js** and **SecondTextDisplay.js** files on our **localhost** screen. Again, we reverted to using **Live Share** continuously at this point, altering content that didn’t quite work, debugging continuously, and altering different aspects of the game to ensure that ‘playing through’ (or at least playing through the first few levels) was possible. 
 
+## Day 7
+Had you loaded _Shipwrecked_ up on our final morning, you would have been confronted by what was, to all intents and purposes, a blank screen. A very technically advanced blank screen, but a blank screen nonetheless. The game, however, was by this stage playable and, with the addition of further game-screen components, such as the **PossibleCommands.js** and **Inventory.js** components which gave further instruction to the player.
+
+I built the **Sass** structure for the styling and began to add to this, working through until the game screen and save screens began to take shape. The **Trello** board that had been continuously added to over the course of the week came in incredibly useful here as we were able to quickly and efficiently add the images and fonts that had been created and sourced earlier in the process to the Sass files. It had been a long week, but it finally felt like we were ‘off the island’.
