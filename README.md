@@ -43,9 +43,11 @@ This stage of the project required a huge amount of testing to ensure that the i
 With the content of the game written, our **zones.js** and **items.js** files needed populating. The zones and items were designed as **React components** with **classes** which stored the property values of that particular component. The **constructors** called during the creation of these two types of object looked like this:
 
 **Zones**
+
 ![Zone Class](https://github.com/sclemson/Shipwrecked/blob/main/client/src/images/Zones%20Class.png)
 
 **Items**
+
 ![Item Class](https://github.com/sclemson/Shipwrecked/blob/main/client/src/images/Items%20Class.png)
 
 
