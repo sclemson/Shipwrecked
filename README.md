@@ -50,4 +50,7 @@ With the content of the game written, our **zones.js** and **items.js** files ne
 
 ![Item Class](https://github.com/sclemson/Shipwrecked/blob/main/client/src/images/Items%20Class.png)
 
+Both the **zones.js** and the **items.js** files were huge and the main job for the day was populating these from the game scripts on Trello. With the game written, any spare time that I had in the evenings at this point was spent populating the game database and creating the level artwork on **Adobe Photoshop**.
+
+As the database expanded, we were increasingly able to test the functionality of the game via huge numbers of **console.logs** throughout. Working through this allowed Preston to hone the **game.js** file in particular - with a key focus for the day being the **COMBINE** function which worked by reading the **creates** section of the **Item** component (see above), and then subsequently added the newly created item to the **inventory** array whilst removing the ‘ingredient’ items from the inventory.
 
