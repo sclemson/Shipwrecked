@@ -34,7 +34,7 @@ As we were working on very separate aspects of the game we set up a **Trello** b
 
 <p float="left">
   <img src="https://github.com/sclemson/Shipwrecked/blob/main/client/src/images/Trello%20Board.png" width="50%"  />
-  <img src="https://github.com/sclemson/Shipwrecked/blob/main/client/src/images/Trello%20Script.png" width="40%" /> 
+  <img src="https://github.com/sclemson/Shipwrecked/blob/main/client/src/images/Trello%20Script.png" width="42%" /> 
 </p>
 
 
