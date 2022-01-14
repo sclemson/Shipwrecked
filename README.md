@@ -85,6 +85,19 @@ Command functions were also key to the game as the player needed to be able to c
 
 ![WALKTO](https://github.com/sclemson/Shipwrecked/blob/main/client/src/images/WALKTO%20Function.png)
 
+**User Input**
+
+The below is a good example of a **component** within the **frontend** of the game. **UserInput** makes use of **useState** and **handles** both submission and change in order to allow the player to interact with _Shipwrecked_.
+
+![User Input](https://github.com/sclemson/Shipwrecked/blob/main/client/src/images/User%20Input.png)
+
+**Backend**
+
+The below is an example of a **views.py** file in the **backend** of _Shipwrecked_. **Put** and **get** requests are used within the file to access the relevant zone (and objects within it) and then pass these into the **ZoneSerializer**.
+
+![Zone Views](https://github.com/sclemson/Shipwrecked/blob/main/client/src/images/Zones%20Backend.png)
+
+
 ## Wins and Wishes
 The biggest win with _Shipwrecked_ was simply completing it. The game itself was significantly bigger than either Preston or I thought that it would be, and, on completion, we both felt a huge sense of accomplishment. I was particularly proud of some of the game aesthetics and the humour in large parts of the game - all of which was enthusiastically greeted when we presented the project to our peers. The successful implementation of relationships in the backend was also a real positive, and the way in which the **save** and **COMBINE** functionality worked was significantly more advanced than we had envisioned at the start of the week. From a playability perspective, _Shipwrecked_ was also really pleasing, fulfilling the original idea of doing something a little different with a database.
 
