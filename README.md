@@ -71,7 +71,7 @@ As previously mentioned, _Shipwrecked_ relied heavily on the **zones.js** and **
 The **driftwood** zones below are a good example of the creation of several different states for the same place. **The code below **driftwoodTwo** is linked to **driftwoodThree** and contains a **['closedchest']**. Once the player enters the command **'USE Stick ON closedchest** the **driftwoodThree** state is activated.
 
 **Items**
-The **stick** referenced in the **driftwood** zones is a good example of an **Item** within _Shipwrecked_. Not only is it used to pry open **closedchest****, but it also combines with **['exposedmetal', 'vine']** to create the **'machete'**.
+The **stick** referenced in the **driftwood** zones is a good example of an **Item** within _Shipwrecked_. Not only is it used to pry open **closedchest**, but it also combines with **['exposedmetal', 'vine']** to create the **'machete'**.
 
 ## Wins and Wishes
 The biggest win with _Shipwrecked_ was simply completing it. The game itself was significantly bigger than either Preston or I thought that it would be, and, on completion, we both felt a huge sense of accomplishment. I was particularly proud of some of the game aesthetics and the humour in large parts of the game - all of which was enthusiastically greeted when we presented the project to our peers. The successful implementation of relationships in the backend was also a real positive, and the way in which the **save** and **COMBINE** functionality worked was significantly more advanced than we had envisioned at the start of the week. From a playability perspective, _Shipwrecked_ was also really pleasing, fulfilling the original idea of doing something a little different with a database.
