@@ -7,7 +7,7 @@ I wanted to create a project that utilised a database in a different way so came
 
 **DURATION:** 7 days.
 
-**TECHNOLOGIES USED:** HTML, Sass, JavaScript, React, Django, Python.
+**TECHNOLOGIES USED:** HTML, CSS/Sass, JavaScript, React, Django, Python.
 
 **LINK:**
 
