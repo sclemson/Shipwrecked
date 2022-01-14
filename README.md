@@ -99,7 +99,7 @@ The below is an example of a **views.py** file in the **backend** of _Shipwrecke
 
 ## Artwork
 
-Each zone in _Shipwrecked_ had a different piece of artwork associated with it. As the player progressed into different zones the imagery altered to match the text descriptions. 
+Each zone in _Shipwrecked_ had a different piece of artwork associated with it. As the player progressed into different zones the imagery altered to match the text descriptions. Some examples of the different areas of the island are shown below:
 
 ![Artwork](https://github.com/sclemson/Shipwrecked/blob/main/client/src/images/Shipwrecked%20Artwork.png)
 
