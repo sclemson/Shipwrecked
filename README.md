@@ -1,4 +1,4 @@
-# Shipwrecked
+![Logo](https://github.com/sclemson/Shipwrecked/blob/main/client/src/images/Logo.png)
 
 ## Project Overview
 _Shipwrecked_ is a text-based RPG puzzler about trying to get off a desert island. The game was my final project on the General Assembly Software Engineering course and was created in collaboration with ![Preston Ng](https://github.com/sungchun) and used **Django**, **Python**, **JavaScript** and **React**.
