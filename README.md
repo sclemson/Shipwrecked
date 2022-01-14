@@ -5,6 +5,12 @@ _Shipwrecked_ is a text-based RPG puzzler about trying to get off a desert islan
 
 I wanted to create a project that utilised a database in a different way so came up with the idea of an RPG. I was responsible for database and app design as well as the writing of the game itself. The project provided a creative solution to a project brief and provided significant opportunities to embed learning from across the SEI course.
 
+**DURATION:** 7 days.
+
+**TECHNOLOGIES USED:** HTML, Sass, JavaScript, React, Django, Python.
+
+**LINK:**
+
 ## The Brief
 - Build a full-stack application by making your own backend and your own frontend.
 - Use a Python Django API using Django REST Framework to serve your data from a Postgres database.
