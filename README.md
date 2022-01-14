@@ -68,14 +68,18 @@ I built the **Sass** structure for the styling and began to add to this, working
 As previously mentioned, _Shipwrecked_ relied heavily on the **zones.js** and **items.js** files which contained the areas that the player could go and the interactables within them.
 
 **Zones**
+
 The **driftwood** zones below are a good example of the creation of several different states for the same place. **The code below **driftwoodTwo** is linked to **driftwoodThree** and contains a **['closedchest']**. Once the player enters the command **'USE Stick ON closedchest** the **driftwoodThree** state is activated.
 
 ![Driftwood Zone](https://github.com/sclemson/Shipwrecked/blob/main/client/src/images/Driftwood%20Zone.png)
 
 **Items**
+
 The **stick** referenced in the **driftwood** zones is a good example of an **Item** within _Shipwrecked_. Not only is it used to pry open **closedchest**, but it also combines with **['exposedmetal', 'vine']** to create the **'machete'**.
 
 ![Stick Machete](https://github.com/sclemson/Shipwrecked/blob/main/client/src/images/Machete%20Object.png)
+
+**Command Functions**
 
 Command functions were also key to the game as the player needed to be able to carry out a variety of actions at any point. The **WALKTO async function** below uses a **get** request (and a **Bearer token**) to retrieve the **ZoneID** from the **API**. If the user enters the name of an inaccessible zone the message **'You can't go there from here'** is displayed on screen, otherwise, the **SecondText** displays the name of the zone the player has walked to.
 
