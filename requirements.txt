@@ -2,7 +2,9 @@ asgiref==3.4.1
 cachetools==4.2.4
 certifi==2021.10.8
 charset-normalizer==2.0.8
+dj-database-url==0.5.0
 Django==3.2.9
+django-on-heroku==1.1.2
 djangorestframework==3.12.4
 google-api-core==2.2.2
 google-api-python-client==2.31.0
@@ -32,3 +34,4 @@ six==1.16.0
 sqlparse==0.4.2
 uritemplate==4.1.1
 urllib3==1.26.7
+whitenoise==6.0.0
