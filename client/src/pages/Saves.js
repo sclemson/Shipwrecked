@@ -24,6 +24,7 @@ const Saves = ({ setZone, setInventory }) => {
                 header: {
                     Authorization: `Bearer ${getToken()}`,
                     'Content-Type': 'application/json',
+                    Accept: 'application/json'
                 }
             }
             const response = await axios(config)
