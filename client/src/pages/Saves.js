@@ -20,7 +20,7 @@ const Saves = ({ setZone, setInventory }) => {
         async function getSaves() {
             const config = {
                 method: 'get',
-                url: '/api/games',
+                url: '/api/games/',
                 header: {
                     Authorization: `Bearer ${getToken()}`,
                     'Content-Type': 'application/json',
