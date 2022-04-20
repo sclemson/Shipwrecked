@@ -18,6 +18,8 @@ const Saves = ({ setZone, setInventory }) => {
 
     useEffect(() => {
         async function getSaves() {
+            // Testing
+            console.log('New version')
             const config = {
                 method: 'get',
                 url: '/api/games/',
